@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 150" width="880" height="150" role="img" aria-label="16 mapas prontos, 32 heróis, 31 monstros e 19 biomas">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f2937"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c2410c" stop-opacity="0.15"/>
+      <stop offset="0.5" stop-color="#d97706" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#c2410c" stop-opacity="0.15"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#10b981" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#10b981" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="1" y="1" width="878" height="148" rx="16" fill="url(#bg)" stroke="#c2410c" stroke-opacity="0.55" stroke-width="2"/>
+  <rect x="40" y="10" width="800" height="2" fill="url(#edge)"/>
+  <rect x="40" y="138" width="800" height="2" fill="url(#edge)"/>
+  <g font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
+    <g transform="translate(110 0)">
+      <ellipse cx="0" cy="64" rx="80" ry="40" fill="url(#glow)"/>
+      <text x="0" y="82" font-size="50" font-weight="700" fill="#34d399">16</text>
+      <text x="0" y="114" font-size="14" letter-spacing="4" fill="#e7b98a">MAPAS PRONTOS</text>
+    </g>
+    <g transform="translate(330 0)">
+      <ellipse cx="0" cy="64" rx="80" ry="40" fill="url(#glow)"/>
+      <text x="0" y="82" font-size="50" font-weight="700" fill="#34d399">32</text>
+      <text x="0" y="114" font-size="14" letter-spacing="4" fill="#e7b98a">HERÓIS</text>
+    </g>
+    <g transform="translate(550 0)">
+      <ellipse cx="0" cy="64" rx="80" ry="40" fill="url(#glow)"/>
+      <text x="0" y="82" font-size="50" font-weight="700" fill="#34d399">31</text>
+      <text x="0" y="114" font-size="14" letter-spacing="4" fill="#e7b98a">MONSTROS</text>
+    </g>
+    <g transform="translate(770 0)">
+      <ellipse cx="0" cy="64" rx="80" ry="40" fill="url(#glow)"/>
+      <text x="0" y="82" font-size="50" font-weight="700" fill="#34d399">19</text>
+      <text x="0" y="114" font-size="14" letter-spacing="4" fill="#e7b98a">BIOMAS</text>
+    </g>
+  </g>
+  <g fill="#c2410c" fill-opacity="0.7">
+    <path d="M220 75 l6 -10 l6 10 l-6 10z" transform="translate(-6 0)"/>
+    <path d="M440 75 l6 -10 l6 10 l-6 10z" transform="translate(-6 0)"/>
+    <path d="M660 75 l6 -10 l6 10 l-6 10z" transform="translate(-6 0)"/>
+  </g>
+  <g stroke="#c2410c" stroke-opacity="0.35" stroke-width="1">
+    <line x1="220" y1="30" x2="220" y2="62"/><line x1="220" y1="88" x2="220" y2="120"/>
+    <line x1="440" y1="30" x2="440" y2="62"/><line x1="440" y1="88" x2="440" y2="120"/>
+    <line x1="660" y1="30" x2="660" y2="62"/><line x1="660" y1="88" x2="660" y2="120"/>
+  </g>
+</svg>
